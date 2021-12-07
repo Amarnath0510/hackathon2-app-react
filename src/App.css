@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.product-pic{
+  max-height: 500px;
+  max-width: 400px;
+ object-fit: cover;
+}
+.product-name{
+  font-size: 35px;
+}
+.product-container:hover{
+  transform: scale(1.1);
+  transition: 3s;
 }
