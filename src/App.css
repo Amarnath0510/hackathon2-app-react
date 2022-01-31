@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap:40px;
+  margin:20px;
+  height: 100vh;
+  margin-left: 40px;
  
 }
 
@@ -38,7 +44,7 @@
   }
 }
 .product-pic{
-  max-height: 500px;
+  max-height: 200px;
   max-width: 400px;
  object-fit: cover;
 }
@@ -47,5 +53,11 @@
 }
 .product-container:hover{
   transform: scale(1.1);
-  transition: 3s;
+ 
+}
+body{
+  background-color: whitesmoke;
+}
+.product-container{
+  height: 400px;
 }
